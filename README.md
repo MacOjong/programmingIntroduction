@@ -1,2 +1,2 @@
-# programmingIntroduction
-my repository for programming tutorials in python and javascript
+# Introduction to Programming
+my repository of introduction to programming in python and javascript
