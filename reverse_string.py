@@ -15,9 +15,9 @@ def reverse_string(string):
     count = 0
 
     while count < len(string):
-        result += string[count]
+        result = string[count] + result
         count += 1
-    return string
+    return result
 
 
 
