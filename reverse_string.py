@@ -24,13 +24,19 @@
 #     return reversed_string
 
 def reverse_string(string):
-    reversed_result = ""
-    for char in string:
-        # incremently concanetate char into reversed_result
-        reversed_result = char + reversed_result 
 
-        # print(char)
-    return reversed_result 
+    # creating an empty string because we will be using it to add characters one at the time
+    # from string backward
+    reversed_s = ""
+    for index in range(len(string)):
+        # incremently concanetate string[index] into reversed_d
+        # Thsis will be adding the the new value o the character in string
+        # to the reversed_s(which was empty at the end) in a backward way
+        # From righ to left.
+        reversed_s = string[index] + reversed_s # => index is of type integer(int)
+
+    return reversed_s
+
 # Test  Zone
 s = "Propinquity"
 # print(reverse_string(string))
